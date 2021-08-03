@@ -79,7 +79,7 @@ text("coins:"+coin,400,20);
   score=score+Math.round(getFrameRate()/60);
      
     
-  if(touches.length > 600 || touches.height < 600|| keyDown("space")&& cat.y >=120){
+  if(touches.length > 500 || touches.height < 200|| keyDown("space")&& cat.y >=120){
     cat.velocityY=-12 ;
   }
   cat.velocityY = cat.velocityY + 0.8;
